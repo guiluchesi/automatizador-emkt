@@ -1,0 +1,22 @@
+{
+  "name": "Princikt",
+  "version": "1.0.0",
+  "description": "Ferramenta de automação de upload de e-mail marketing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "princikt": "bin/princikt.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "jshintConfig": {
+    "esversion": 6
+  },
+  "dependencies": {
+    "gulp-vinyl-zip": "^1.4.0",
+    "vinyl-fs": "^2.4.4",
+    "vinyl-ftp": "^0.6.0"
+  }
+}
